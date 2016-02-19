@@ -10,7 +10,7 @@ github_username:  oreoshake
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 
 gems:
 - jekyll-mentions
