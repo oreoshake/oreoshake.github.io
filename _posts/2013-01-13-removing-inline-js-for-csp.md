@@ -15,45 +15,50 @@ The thing I like most about these techniques is that it only requires one form o
 
 ### Single values: create a hidden input
 
-<pre class="prettyprint">
-&lt;input id="mything" type="hidden" value="<%= html_escape(@donkey) %>"&gt;
-</pre>
+```html
+<input id="mything" type="hidden" value="<%= html_escape(@donkey) %>" />
+```
 
-<pre class="prettyprint">var thingy = $('#myinput').val()</pre>
+```js
+var thingy = $('#myinput').val()
+```
 
 ### Multiple related values: create a hidden span with data-* attributes
 
-<div>Using a naming convention and/or programmatic loading go a long way here.</div>
+<div>Using a naming convention and/or programmatic loading go a long way here. </div>
 
-<pre class="prettyprint">&lt;span class="hide" data-attr1="<%= html_escape(@attr1)%>" data-attr2="<%= html_escape(@attr2)%>" id="mycontainer"&gt;&lt;/span&gt;</pre>
+```html
+<span class="hide" data-attr1="<%= html_escape(@attr1)%>" data-attr2="<%= html_escape(@attr2)%>" id="mycontainer"></span>
+```
 
-(note this is terrible code, but I didn't want to use any language specific code)
-
-<pre class="prettyprint">var firstThingy = $('#mycontainer').data('attr1');
-var secondThingy = $('#mycontainer').data('attr2');</pre>
+```js
+var firstThingy = $('#mycontainer').data('attr1');
+var secondThingy = $('#mycontainer').data('attr2');
+```
 
 ### Loading complex objects: place the object in the content of script tag as HTML-escaped JSON, read the innerHTML of the span, and parse it as JSON.
 
-This technique is also outlined in the [OWASP XSS Prevention Cheat Sheet](https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet#RULE_.233.1_-_HTML_escape_JSON_values_in_an_HTML_context_and_read_the_data_with_JSON.parse) Thanks to @rx: improved on this a bit by using a script tag rather than a span. The values must still be escaped! Use html entity encoding here too. If you must, json encoding will work as well. Otherwise, breaking out of the script tag is just a matter of placing   
+This technique is also outlined in the [OWASP XSS Prevention Cheat Sheet](https://www.owasp.org/index.php/XSS_%28Cross_Site_Scripting%29_Prevention_Cheat_Sheet#RULE_.233.1_-_HTML_escape_JSON_values_in_an_HTML_context_and_read_the_data_with_JSON.parse) Thanks to @rx: improved on this a bit by using a script tag rather than a span. The values must still be escaped! Use html entity encoding here too. If you must, json encoding will work as well. Otherwise, breaking out of the script tag is just a matter of placing  
 which is parsed by the browser BEFORE the javascript is parsed/executed. Again, even invalid JSON is trumped by what the browser thinks you meant to do and it will happily render an attackers closing script tag and what is to follow.  
 
 A completely valid alternative is to JSON encode the values. Why didn't I use that approach? Because few templating languages support this directly. Take Mustache, which I absolutely love: your choices are HTML entity encode or output the raw values. This would require the JSON encoding to happen outside of the template, which is a recipe for disaster and trains people to think triple staches (raw data) is ok. This is bad.
 
-<pre class="prettyprint">
-&lt;script type="application/json" id="init_data"&gt;
+```html
+<script type="application/json" id="init_data">
   <%= html_escape(@donkey.to_json)%>
-&lt;/script&gt;
-</pre>
+</script>
+```
 
-Note! You MUST set type="application/json" or CSP will consider it code, and block the inline script.   
+Note! You MUST set type="application/json" or CSP will consider it code, and block the inline script.  
 In an external JS file, read the value as raw html and parse the encapsulated JSON to yield an associative array (a.k.a. map, dictionary, hash, etc).
 
-<pre class="prettyprint">  var dataElement = document.getElementById('init_data');
-  var jsonText = unescape(dataElement);  
+```js
+var dataElement = document.getElementById('init_data');
+var jsonText = unescape(dataElement);  
 
-  // you may need to do additional processing, like calling split
-   var initData = JSON.parse(jsonBlock);
-</pre>
+// you may need to do additional processing, like calling split
+var initData = JSON.parse(jsonBlock);
+```
 
 ## Google analytics
 
@@ -61,31 +66,36 @@ We often make use of per-page values for google analytics. This often includes d
 
 ApplicationHelper  
 
-<pre class="prettyprint">
+```ruby
 def google_analytics_setting index, value
-  content_tag 'span', '', :class => 'hide',
-    :id => "google_analytics_#{index}", :'data-value' => value
+  content_tag 'span', '', :class => 'hide',
+    :id => "google_analytics_#{index}", :'data-value' => value
 end
-</pre>
 
-"myview.html.erb"   
+```
 
-<pre class="prettyprint"><%= google_analytics_setting 1, 'Key', 'Value' %></pre>
+"myview.html.erb"  
+
+```html
+<%= google_analytics_setting 1, 'Key', 'Value' %>
+```
 
 external.js  
 
-<pre class="prettyprint">function setCustomGAVar(index, key, value) {
-  _gaq.push(['_setCustomVar', index, key, value]);
+```js
+function setCustomGAVar(index, key, value) {
+  _gaq.push(['_setCustomVar', index, key, value]);
 }
 
 $(document).ready(function() {
-  // set per-page values unobtrusively
-  $('span[id^=google_analytics_]').each(function(index) {
-    var self = $(this);
-    var id = self.attr('id');
-    var index = id.substring(id.length - 1);
-    var key = self.data('key');
-    var value = self.data('value');
-    setCustomGAVar(index, key, value);
-  });
-};</pre>
+  // set per-page values unobtrusively
+  $('span[id^=google_analytics_]').each(function(index) {
+    var self = $(this);
+    var id = self.attr('id');
+    var index = id.substring(id.length - 1);
+    var key = self.data('key');
+    var value = self.data('value');
+    setCustomGAVar(index, key, value);
+  });
+};
+```
