@@ -53,8 +53,7 @@ Note! You MUST set type="application/json" or CSP will consider it code, and blo
 In an external JS file, read the value as raw html and parse the encapsulated JSON to yield an associative array (a.k.a. map, dictionary, hash, etc).
 
 ```js
-var dataElement = document.getElementById('init_data');
-var jsonText = unescape(dataElement);  
+var jsonText = document.getElementById('init_data').textContent;  
 
 // you may need to do additional processing, like calling split
 var initData = JSON.parse(jsonBlock);
