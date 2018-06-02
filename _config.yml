@@ -3,7 +3,7 @@ title: Blawg
 email: neil.matatall@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Just some ramblings. Probably about CSP.
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "https://oreoshake.github.io" # the subpath of your site, e.g. /blog/
 url: "https://oreoshake.github.io" # the base hostname & protocol for your site
 twitter_username: ndm
 github_username:  oreoshake
