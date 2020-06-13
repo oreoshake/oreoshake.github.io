@@ -1,5 +1,7 @@
 name: stats
-on: [pull_request, push]
+on:
+  schedule:
+    - cron: "*/5 * * * *"
 jobs:
   triage:
     runs-on: ubuntu-latest
@@ -11,5 +13,5 @@ jobs:
         ruby-version: 2.6
     - name: Run script
       run: |
-        gem install octokit
+        gem install --no-document octokit
         GITHUB_TOKEN=${{ secrets.PAT }} ruby main.rb
