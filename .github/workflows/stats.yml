@@ -12,4 +12,4 @@ jobs:
     - name: Run script
       run: |
         gem install octokit
-        GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} ruby main.rb
+        GITHUB_TOKEN=${{ secrets.PAT }} ruby main.rb
