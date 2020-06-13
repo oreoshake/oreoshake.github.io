@@ -1,0 +1,15 @@
+name: stats
+on:
+- [push, pull_request]
+jobs:
+  triage:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Set up Ruby ${{ matrix.ruby }}
+      uses: actions/setup-ruby@v1
+      with:
+        ruby-version: 2.6
+    - name: Run script
+      run: |
+        gem install octokit
+        GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} ruby main.rb
