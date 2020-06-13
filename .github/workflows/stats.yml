@@ -1,7 +1,8 @@
 name: stats
 on:
+  push:
   schedule:
-    - cron: "*/5 * * * *"
+  - cron: '0 0 * * *' # Once per day at midnight
 jobs:
   triage:
     runs-on: ubuntu-latest
