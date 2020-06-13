@@ -15,6 +15,10 @@ puts
 puts
 puts
 
-sorted.each do |branch, count|
+filtered = sorted.select do |branch, count|
+  count > 1
+end
+
+filtered.each do |branch, count|
   puts [branch, "has", count, "repos"].join(" ")
 end
