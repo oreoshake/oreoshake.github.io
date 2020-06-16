@@ -11,10 +11,6 @@ sorted = counts.sort_by do |default_branch, counts|
   -counts
 end
 
-puts
-puts
-puts
-
 filtered = sorted.select do |branch, count|
   count > 1
 end
