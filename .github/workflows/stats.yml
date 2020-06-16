@@ -15,4 +15,7 @@ jobs:
     - name: Run script
       run: |
         gem install --no-document octokit
-        GITHUB_TOKEN=${{ secrets.PAT }} ruby main.rb
+        GITHUB_TOKEN=${{ secrets.PAT }} ruby main.rb > stats.html
+        git add stats.html
+        git commit -m "update stats"
+        git push origin HEAD
