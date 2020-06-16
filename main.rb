@@ -16,5 +16,5 @@ filtered = sorted.select do |branch, count|
 end
 
 filtered.each do |branch, count|
-  puts [branch, "has", count, "repos"].join(" ")
+  puts ["<p>", branch, "has", count, "repos </p>"].join(" ")
 end
