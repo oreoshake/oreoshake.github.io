@@ -16,6 +16,8 @@ jobs:
       run: |
         gem install --no-document octokit
         GITHUB_TOKEN=${{ secrets.PAT }} ruby main.rb > stats.html
+        git config --global user.email "oreoshake@users.noreply.github.com"
+        git config --global user.name "Neil Matatall"
         git add stats.html
         git commit -m "update stats"
         git push origin HEAD
