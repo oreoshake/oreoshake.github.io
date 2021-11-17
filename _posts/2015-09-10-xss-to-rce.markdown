@@ -13,7 +13,7 @@ I accidentally triggered a cross-site scripting (XSS) vulnerability in &lt;conf 
 
 # Standup
 
-I entered a meeting with the classic first name of `<img src=x onerror=alert()>` (the [bobby tables](http://xkcd.com/327/) of XSS). A few minutes into the conversation, [toomey] noticed a broken image pop up. Uh oh. When I asked if he also saw an alert box, my colleague [ben] chimed in and said yes.
+I entered a meeting with the classic first name of `<img src=x onerror=alert()>` (the [bobby tables](http://xkcd.com/327/) of XSS). A few minutes into the conversation, [patrick] noticed a broken image pop up. Uh oh. When I asked if he also saw an alert box, my colleague [ben] chimed in and said yes.
 
 So we have XSS. Sweet. In at least two clients. Hmmm, this could be bad.
 
@@ -71,11 +71,11 @@ You can't have a good exploit unless calculators are involved. See [PDF content-
 
 ## Conclusion
 
-Big ups to the GitHub appsec team. Within one hour we went from XSS to RCE. And it played out like something in one of those movies or TV shows. "We popped a faux console using eval and prompt while ripping open the binary to leverage a libary with system access to perform remote code execution... to open a calculator." Most of the credit has to go to [ben] and [greg], I just found XSS and I wouldn't have even known without [toomey].
+Big ups to the GitHub appsec team. Within one hour we went from XSS to RCE. And it played out like something in one of those movies or TV shows. "We popped a faux console using eval and prompt while ripping open the binary to leverage a libary with system access to perform remote code execution... to open a calculator." Most of the credit has to go to [ben] and [greg], I just found XSS and I wouldn't have even known without [patrick].
 
 [Did I mention that we're hiring an intern for the appsec team?](https://jobs.lever.co/github/8be6828a-2762-42da-bd11-8306addb0909)
 
 
-[toomey]: https://twitter.com/patricktoomey "@patricktoomey"
+[patrick]: https://twitter.com/patricktoomey "@patricktoomey"
 [ben]: https://twitter.com/mastahyeti "@mastahyeti"
 [greg]: https://twitter.com/gose1 "@gose1"
