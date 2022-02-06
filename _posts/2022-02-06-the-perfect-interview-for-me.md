@@ -30,6 +30,8 @@ Live coding exercises are _more_ contrived and trivial or unrealistic. Maybe not
 
 It's in the title. I want to block off some time of my choosing to take it on. I like to think about things before diving into code in real life. While I do chores, my morning routine, etc. Take-home challenges typically come with a time limit and a window of completion e.g. "spend 2-5 hours within a 48-hour window." In most cases, the honor system is used, but some technically enforce this.
 
+Coming from a management role, I really enjoy these challenges :smile:. They are simple enough that I don't need to dig deep, interesting enough that I might try and over-engineer a thing or two, and small enough that I might put an extra amount of attention to detail. 
+
 ### An actual repo
 
 On GitHub. Let me show you more than code. More than a commit history. I want to show you pull requests. Yes, I will comment on my own PRs in real life. 
@@ -64,7 +66,7 @@ Live coding exercises can give you a quick glimpse into how people use google (h
 
 ### My time
 
-Live coding challenges take an hour, take-home exercises are expected to take 2-5 or even more. Not only can I devote time behind a keyboard, but I also have time to think about things casually. It may lead to me looking something up ahead of time to apply something less familiar. These problems are often contrived and don't accurately reflect web programming.
+Live coding challenges take an hour, take-home exercises are expected to take 2-5 or even more. Not only can I devote time behind a keyboard, but I also have time to think about things casually. It may lead to me looking something up ahead of time to apply something less familiar. These problems are often contrived and don't accurately reflect web programming. **Not everyone has this luxury**.
 
 I had enough time to create a basic repo template since most of these involved some sort of CLI. Prepared with unit/acceptance/linter/etc. GitHub actions ready. In Codespaces. With my settings synced.
 
