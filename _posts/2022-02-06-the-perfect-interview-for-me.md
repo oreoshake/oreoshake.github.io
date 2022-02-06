@@ -1,14 +1,28 @@
 # The "perfect" interview (for me)
 
-I want to start with a healthy dose of "the world does not revolve around me" before these hot takes. I've felt myself struggling to best demonstrate my capabilities during this round of interviews. I don't expect myself to perform flawlessly in every situation, but there seems to be more resistance to my transition to engineering than expected. This hesitation is exclusively from people who don't already know me. All in all, only one opportunity didn't work out, and it's because I flopped horribly on the coding exam.
+I want to start with a healthy dose of "the world does not revolve around me" before these hot takes. 
+
+I've felt myself struggling to best demonstrate my capabilities during this round of interviews. I don't expect myself to perform flawlessly in every situation, but there seems to be more resistance to my transition to engineering than expected. This hesitation is exclusively from people who don't already know me. It's been more than a year since I've been an engineer. There's rust.
+
+All in all, only one opportunity didn't work out, and it's because I flopped horribly on the coding exam. 
 
 ## Accommodations
 
-I fall apart in live coding challenges in general, and every company but one was willing to adapt their process. I use accommodation very intentionally because they went out of their way to make me feel more comfortable. I think it's a win/win because I know plenty of people who cannot perform well in these interviews. But it can be seen as unfair to others who didn't get the same opportunity. Also, each one of the four that changed their processes on my behalf had to scramble to come up with something different. I was a test pilot for their new way of interviews.
+I fall apart in live coding challenges in general, and every company but one was willing to adapt their process. I use "accommodation" very intentionally because they went out of their way to make me feel more comfortable. I think it's a win/win because I know plenty of people who cannot perform well in these interviews. But it can be seen as unfair to others who didn't get the same opportunity. Also, each one of the four that changed their processes on my behalf had to scramble to come up with something different. I was a test pilot for their new way of interviews.
 
 ## "Accomodations"
 
-The worst was a company that took their live coding challenge and turned it into "you can drop off zoom." In their defense, I agreed to this and thought it would work. It didn't. I fell apart. 1-hour limit. No advance preparation. Granted, I wasted my time trying to leverage a library that I had trouble remembering how to use when simple calculations would have worked... and I could have jumped back on zoom with questions... I didn't and I flopped hard. The recruiter reached out with something along the lines of "what happened?" and I just said it felt just like any other live coding challenge and that I appreciated the attempt.
+The worst was a company that took their live coding challenge and turned it into "you can drop off zoom." In their defense, I agreed to this and thought it would work. It didn't. I fell apart. 1-hour limit. No advance preparation. Granted, I wasted too much time trying to leverage a library that I had trouble remembering how to use when simple calculations would have worked... and I could have jumped back on zoom with questions... but I didn't and I flopped hard. The recruiter reached out with something along the lines of "what happened?" and I just said it felt just like any other live coding challenge and that I appreciated the attempt.
+
+## What am I interviewing for? 
+
+Live coding is not real life. There is no situation where someone will drop a surprise on my plate and say perform at exactly this time or else you don't work here. 
+
+Live coding is not pairing. Your partner my not be helpful. They can't just _give_ you the answer. You can validate things with them and ask leading questions but it's still a game and it sucks. Unless you primarily operate with pair programming, I don't see how this is remotely applicable.
+
+Live coding is nerve wracking. I perform well remotely because I can create a distraction free environment. I might even *gasp* close slack. Having someone figuratively watching over my shoulder does not make me feel comfortable. Given many people feel this way, using live coding exclusively can be less inclusive. 
+
+Live coding exercises are _more_ contrived and trivial or unrealistic. Maybe not all coding exercises need to result in a solution, but that's how I've operated. Take-homes aren't much different here, but they seem to be a little more about design and implementation.
 
 ## The perfect interview
 
