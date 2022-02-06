@@ -1,4 +1,4 @@
-# The perfect interview (for me)
+# The "perfect" interview (for me)
 
 I want to start with a healthy dose of "the world does not revolve around me" before these hot takes. I've felt myself struggling to best demonstrate my capabilities during this round of interviews. I don't expect myself to perform flawlessly in every situation, but there seems to be more resistance to my transition to engineering than expected. This hesitation is exclusively from people who don't already know me. All in all, only one opportunity didn't work out, and it's because I flopped horribly on the coding exam.
 
