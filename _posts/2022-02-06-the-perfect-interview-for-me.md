@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "The perfect interview (for me)"
+date:   2022-01-26 17:28:00
+categories: jobs
+---
+
 # The "perfect" interview (for me)
 
 I want to start with a healthy dose of "the world does not revolve around me" before these hot takes. 
