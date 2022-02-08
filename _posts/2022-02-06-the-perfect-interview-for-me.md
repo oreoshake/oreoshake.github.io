@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The perfect interview (for me)"
-date:   2022-01-26 17:28:00
+date:   2022-02-06 17:28:00
 categories: jobs
 ---
 
