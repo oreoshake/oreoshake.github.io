@@ -19,6 +19,8 @@ GitHub supported pretty loosely defined hours for anyone in a senior-or-less pos
 
 Not only do I want to define my own hours but I want the ability to do it on the fly. I already stated I want to work in my time zone, but only sometimes. Sometimes I get up early and want to hit the ground running. I could start anywhere from 5 - 9 am. I'm not skipping meetings and I'm not forcing people to work around a mysterious schedule. But if nothing is on my calendar, I can do what I need to do to be productive as an employee and human. 
 
+I remember working with an American doing a [biphasic sleep schedule](https://en.wikipedia.org/wiki/Biphasic_and_polyphasic_sleep) and people in Europe in the same week. We got stuff done.
+
 ## No contact outside of work hours
 
 If we have a pager system, cool. But I will not be around on nights and weekends and I'd expect others to do the same (based on their time zone) - especially leadership. This can be an issue with some startups, but others see the sustainability benefits of not working long hours and weekends. 
