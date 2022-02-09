@@ -27,7 +27,7 @@ Live coding is not real life. There is no situation where someone will drop a su
 
 Live coding is not pairing. Your partner my not be helpful. They can't just _give_ you the answer. You can validate things with them and ask leading questions but it's still a game and it sucks. Unless you primarily operate with pair programming, I don't see how this is remotely applicable.
 
-Live coding is nerve wracking. I perform well remotely because I can create a distraction free environment. I might even *gasp* close slack. Having someone figuratively watching over my shoulder does not make me feel comfortable. Given many people feel this way, using live coding exclusively can be less inclusive. 
+Live coding is nerve wracking. I perform well remotely because I can create a distraction free environment. I might even *gasp* close slack. Having someone figuratively watching over my shoulder does not make me feel comfortable. 
 
 Live coding exercises are _more_ contrived and trivial or unrealistic. Maybe not all coding exercises need to result in a solution, but that's how I've operated. Take-homes aren't much different here, but they seem to be a little more about design and implementation.
 
