@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Bro do you even code"
-date:   2022-02-10 20:40:49
+date:   2022-02-10 08:40:49
 categories: jobs
 ---
 
