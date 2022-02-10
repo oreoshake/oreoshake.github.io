@@ -11,6 +11,8 @@ I want to start with a healthy dose of "the world does not revolve around me" be
 
 I've felt myself struggling to best demonstrate my capabilities during this round of interviews. I don't expect myself to perform flawlessly in every situation, but there seems to be more resistance to my transition to engineering than expected. This hesitation is exclusively from people who don't already know me. It's been more than a year since I've been an engineer. There's rust.
 
+It's just awful timing that I'm being vocal about all of this in light of the recent ["the new hire who showed up is not the same person we interviewed"](https://www.askamanager.org/2022/01/the-new-hire-who-showed-up-is-not-the-same-person-we-interviewed.html) article.
+
 ## Accommodations
 
 I fall apart in live coding challenges in general, and every company but one was willing to adapt their process. I use "accommodation" very intentionally because they went out of their way to make me feel more comfortable. I think it's a win/win because I know plenty of people who cannot perform well in these interviews. But it can be seen as unfair to others who didn't get the same opportunity. Also, each one of the four that changed their processes on my behalf had to scramble to come up with something different. I was a test pilot for their new way of interviews.
