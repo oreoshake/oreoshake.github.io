@@ -43,6 +43,10 @@ Coming from a management role, I really enjoy these challenges :smile:. They are
 
 On GitHub. Let me show you more than code. More than a commit history. I want to show you pull requests. Yes, I will comment on my own PRs in real life. 
 
+### Don't review my submission, perform a code review
+
+One of the more interesting opportunities had me create a PR and more or less pretended like it was real life. This was the same opportunity that invited me to a private slack channel. It truly felt like what real life would be. Our back and forth spanned over a few days and our slack conversations have continued beyond the duration of the coding part of the challenge.
+
 ### Technical AND written challenge
 
 One of the most significant reported drawbacks of take-home interviews is that you don't get to see how the person thinks or gets over hurdles. That can be done with a written component. Give me a problem that is far too big for the time to be completed, but ask me to describe how I would have approached the things I couldn't get done.
