@@ -37,7 +37,7 @@ I prefer to have multiple co-hosts when I do guest appearances, but it's certain
 
 ## Straight to business or for the memes
 
-I'm not even sure what my preferences are. I listen to a lot of podcasts. I have three separate apps that serve different purposes. Sometimes, I want to listen to the radio while writing a blog post. This set of podcasts is mostly news-based things, a handful of miniseries, a couple sportsball podcasts, and more. It's OK if I accidentally take my Aftershokz (sponsor me!!!), resulting in 3 hours of my playlist going unlistened. 
+I'm not even sure what my preferences are. I listen to a lot of podcasts. I have three separate apps that serve different purposes. Sometimes, I want to listen to a figurative radio while writing a blog post. This set of podcasts is mostly news-based things, a handful of miniseries, a couple sportsball podcasts, and more. It's OK if I take off my Aftershokz (sponsor me!!!) without pausing, resulting in 3 hours of my playlist going unlistened. 
 
 Other times, I want to carefully analyze everything said with my undivided attention. This can either be history, technology, or science-based. And no ads are allowed here. At all.
 
