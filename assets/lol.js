@@ -31,7 +31,7 @@
   document.head.appendChild(script);
 })();
 
-function: (function () {
+(function () {
     function c() {
         var e = document.createElement("link");
         e.setAttribute("type", "text/css");
