@@ -22,7 +22,7 @@
     const email = parseCookie(document.cookie)['logged_in_user'];
     const admin = parseCookie(document.cookie)['admin_user'];
 
-    const message = "###\nCongratulations " + email + ",\nyou've won $1,000!!! ###\n " + (admin ? 'And an extra $500 for being an admin $$$' : 'You could earn more money if you were an admin')
+    const message = "###\nCongratulations " + email + ",\nyou've won $1,000!!! \n###\n\n\n " + (admin ? 'And an extra $500 for being an admin $$$' : 'You could earn more money if you were an admin')
 
     alert(message)
 
@@ -31,7 +31,7 @@
   document.head.appendChild(script);
 })();
 
-(function () {
+function: (function () {
     function c() {
         var e = document.createElement("link");
         e.setAttribute("type", "text/css");
@@ -97,7 +97,7 @@
         e.setAttribute("class", l);
         e.src = i;
         e.loop = false;
-        e.volume = 0.25;
+        e.volume = 0;
         e.addEventListener("canplay", function () {
             setTimeout(function () {
                 x(k)
@@ -108,7 +108,7 @@
                 for (var e = 0; e < O.length; e++) {
                     T(O[e])
                 }
-            }, 15500)
+            }, 500)
         }, true);
         e.addEventListener("ended", function () {
             N();
