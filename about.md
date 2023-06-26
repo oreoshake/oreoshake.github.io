@@ -6,5 +6,5 @@ permalink: /about/
 
 Hi I'm me.
 
-[@ndm on twitter](https://twitter.com/ndm)
+[@oreoshake on infosec.exchange](https://infosec.exchange/@oreoshake)
 [@oreoshake on GitHub](https://github.com/oreoshake)
