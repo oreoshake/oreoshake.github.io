@@ -5,7 +5,7 @@ date:   2026-06-24 09:00:00
 categories: projects
 ---
 
-[Play it here](https://browslatro.matatall.com/). No install, no account. BYOK if you want to leverage AI for more than a few choices (ML content is free). Desktop or iPad strongly recommended; mobile is playable but cramped.
+[Play it here](https://browslatro.matatall.com/) ([code on GitHub](https://github.com/oreoshake-s-team/browslatro). No install, no account. BYOK if you want to leverage AI for more than a few choices (ML content is free). Desktop or iPad strongly recommended; mobile is playable but cramped.
 
 ---
 
