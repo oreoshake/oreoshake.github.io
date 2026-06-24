@@ -13,6 +13,8 @@ I've spent most of my career in security and backend-adjacent work so my fronten
 
 It started as "relearn React" doing things entirely by hand. It ended as a React 19 app with a deterministic scoring engine, two independent move advisors, and an offline machine-learning pipeline that trains a neural network in PyTorch and runs it *in the browser* via WASM. Towards, the end, it was almost entirely done using Claude.
 
+I would classify this as "90% complete, 60% done." Some aspects, e.g. some decks, are not implemented at all. While all 150 jokers are represented, I've found plenty of bugs (the joker backfill was my exploration into just letting Claude do its thing). Most of the mechanics should be implemented, but I would be shocked if they perfectly aligned with the popular video game. If I were to start over, I would have moved with more caution. However, I had a blast so #NoRagrets. 
+
 ![Browslatro gameplay — Small Blind, an empty joker row, your hand, and the Submit / Discard / Suggest buttons](/assets/browslatro/gameplay.png)
 
 ## The bonus features (the fun part)
